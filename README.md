@@ -5,6 +5,8 @@ Bored with traditional Progress Bars !! Don't worry we have a great solution for
 
 Now Get the stylished Progress Bar in just 2 easy steps.
 
+------------------------------------------------------------
+
 Step 1 ->
 
   Add the below code into yourxml layout file.
@@ -20,21 +22,26 @@ Step 1 ->
         android:visibility="visible" >
     </com.sunny.bubbleprogressbar.BubbleProgressBar>
     
-    
+
+-----------------------------------------------------------------    
+
 Step 2 ->
 
   Get the xml element reference by 
   bubbleProgressBar = (BubbleProgressBar) findViewById(R.id.bubble_progress_bar);
   
-  Start the progress ->
+  ------------------------------------------
+  1. Start the progress ->
   
   bubbleProgressBar.startAnimation();
+  ------------------------------------------
   
-  Stop the progress ->
+  2. Stop the progress ->
   
   bubbleProgressBar.stopAnimation();
   
-  Check if the progress is started or stopped
+  ------------------------------------------
+  3. Check if the progress is started or stopped
   
   bubbleProgressBar.isAnimating() -> returns true if already started otherwise return false..
 
