@@ -37,7 +37,7 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
         <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>3 Steps Integration Process</h3>
+<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>2 Steps Integration Process</h3>
 
 <p>Step 1 -> <br><br>
 
@@ -51,7 +51,7 @@
         android:layout_gravity="center_vertical|center_horizontal"<br>
         android:layout_marginTop="20dp"<br>
         android:gravity="center_horizontal|center_vertical"<br>
-        android:visibility="visible" ><br>
+        android:visibility="visible" <br>
     </com.sunny.bubbleprogressbar.BubbleProgressBar<br>
 
  
@@ -60,7 +60,21 @@
     Step 2 -> <br><br>
 
   Get the xml element reference by <br><br>
-  bubbleProgressBar = (BubbleProgressBar) findViewById(R.id.bubble_progress_bar);<br><br>
+  bubbleProgressBar = (BubbleProgressBar) findViewById(R.id.bubble_progress_bar);<br><br
+  1. Start the progress -><br><br>
+  
+  bubbleProgressBar.startAnimation();<br><br>
+  
+  
+  2. Stop the progress -><br><br>
+  
+  bubbleProgressBar.stopAnimation();<br><br>
+  
+  
+  3. Check if the progress is started or stopped<br><br>
+  
+  bubbleProgressBar.isAnimating() -> returns true if already started otherwise return false..<br><br>
+
    <p>---------------------------------------------------------------</p>
    
   </body>
