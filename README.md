@@ -10,7 +10,7 @@ Step 1 ->
 
   Add the below code into yourxml layout file.
   
-   <com.sunny.bubbleprogressbar.BubbleProgressBar
+   com.sunny.bubbleprogressbar.BubbleProgressBar
         android:id="@+id/bubble_progress_bar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,15 +19,15 @@ Step 1 ->
         android:layout_marginTop="20dp"
         android:gravity="center_horizontal|center_vertical"
         android:visibility="visible" >
-    </com.sunny.bubbleprogressbar.BubbleProgressBar>
+    com.sunny.bubbleprogressbar.BubbleProgressBar
     
 
 
-
+<br>
 Step 2 ->
 
   Get the xml element reference by <br>
-  bubbleProgressBar = (BubbleProgressBar) findViewById(R.id.bubble_progress_bar);
+  <br>bubbleProgressBar = (BubbleProgressBar) findViewById(R.id.bubble_progress_bar);
   
   
   1. Start the progress ->
