@@ -33,18 +33,34 @@
     
 
 
-<p>Step 1 -><br>
+<!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>3 Steps Integration Process</h3>
 
-  Add the below code into yourxml layout file.</p><br><br>
-  
-    com.sunny.bubbleprogressbar.BubbleProgressBar<br>
-        android:id="@+id/bubble_progress_bar"<br>
-        android:layout_width="wrap_content"<br>
-        android:layout_height="wrap_content"<br>
-        android:layout_centerInParent="true"<br>
-        android:layout_gravity="center_vertical|center_horizontal"<br>
-        android:layout_marginTop="20dp"<br>
-        android:gravity="center_horizontal|center_vertical"<br>
-        android:visibility="visible" ><br>
-    com.sunny.bubbleprogressbar.BubbleProgressBar<br>
+<p>Step 1 -> <br><br>
+
+   Add below permissions in manifest.xml 
+    
+ 
+
+ <br>  <br>uses-permission android:name="android.permission.READ_CONTACTS" 
+    <br>uses-permission android:name="android.permission.WRITE_CONTACTS" </p>
+    <p>
+    <p>---------------------------------------------------------------</p>
+    Step 2 -> <br><br>
+
+   Get the instance of the class AllPhoneBookContactUtils.java as below explained.
+    
+    <br><br>AllPhoneBookContactUtils.getInstance() -> return an instanceof the class AllPhoneBookContactUtils.java </p>
+   <p>---------------------------------------------------------------</p>
+    Step 3 -> <br><br>
+
+   Call the below method to get list of all PhoneBook contacts.
+    
+   <br><br> AllPhoneBookContactUtils.getInstance().getAllPhoneBookContacts(
+				context); -> Returns the ArrayList of objects of the class ContactData.java 
+  </body>
+</html>
 
