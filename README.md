@@ -5,7 +5,6 @@ Bored with traditional Progress Bars !! Don't worry we have a great solution for
 
 Now Get the stylished Progress Bar in just 2 easy steps.
 
-------------------------------------------------------------
 
 Step 1 ->
 
@@ -23,24 +22,23 @@ Step 1 ->
     </com.sunny.bubbleprogressbar.BubbleProgressBar>
     
 
------------------------------------------------------------------    
 
 Step 2 ->
 
   Get the xml element reference by 
   bubbleProgressBar = (BubbleProgressBar) findViewById(R.id.bubble_progress_bar);
   
-  ------------------------------------------
+  
   1. Start the progress ->
   
   bubbleProgressBar.startAnimation();
-  ------------------------------------------
+  
   
   2. Stop the progress ->
   
   bubbleProgressBar.stopAnimation();
   
-  ------------------------------------------
+  
   3. Check if the progress is started or stopped
   
   bubbleProgressBar.isAnimating() -> returns true if already started otherwise return false..
