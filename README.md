@@ -41,6 +41,6 @@ Step 2 ->
   
   3. Check if the progress is started or stopped
   
-  bubbleProgressBar.isAnimating() -> returns true if already started otherwise return false..
+  bubbleProgressBar.isAnimating() -> returns true if already started otherwise return false.
 
   
