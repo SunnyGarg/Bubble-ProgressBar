@@ -37,7 +37,7 @@ Step 2 ->
   
   2. Stop the progress ->
   
-  bubbleProgressBar.stopAnimation();
+  bubbleProgressBar.stopAnimation();<br>
   
   
   3. Check if the progress is started or stopped
