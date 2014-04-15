@@ -1,7 +1,9 @@
 Bubble-ProgressBar
 ==================
 
-Bubble ProgressBar
+Bored with traditional Progress Bars !! Don't worry we have a great solution for you.
+
+Now Get the stylished Progress Bar
 
 Step 1 ->
 
