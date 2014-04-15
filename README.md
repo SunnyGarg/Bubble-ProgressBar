@@ -23,9 +23,10 @@ Step 1 ->
     
 
 
+
 Step 2 ->
 
-  Get the xml element reference by 
+  Get the xml element reference by <br>
   bubbleProgressBar = (BubbleProgressBar) findViewById(R.id.bubble_progress_bar);
   
   
