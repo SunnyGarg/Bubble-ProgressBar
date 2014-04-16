@@ -48,4 +48,10 @@ Step 2 ->
   
   bubbleProgressBar.isAnimating() -> returns true if already started otherwise return false.
 
+<h1>Contact Us On</h1>
+
+sunnyg8@gmail.com
+
+http://in.linkedin.com/pub/sunny-garg/20/4aa/a50/
+
   
