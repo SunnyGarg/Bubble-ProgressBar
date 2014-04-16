@@ -1,7 +1,6 @@
 Bubble-ProgressBar
 ==================
 
-Bubble ProgressBar
 
 SDK designed for use with Android devices and simulators. Requires Android 2.3 or later.
 
