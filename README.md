@@ -1,4 +1,4 @@
-<h1> Bubble Progress Bar</h1>
+<h1> Android Bubble Progress Bar SDK</h1>
 
 Bored with traditional Progress Bars !! Don't worry we have a great solution for you.
 
