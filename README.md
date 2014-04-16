@@ -4,7 +4,7 @@ Bored with traditional Progress Bars !! Don't worry we have a great solution for
 
 Now Get the stylished Progress Bar in just 2 easy steps.
 
-<h1> SDK Android Version Compatibility</h1>
+<h1> Android Version Compatibility</h1>
 
 SDK designed for use with Android devices and simulators. Requires Android 2.3 or later.
 
