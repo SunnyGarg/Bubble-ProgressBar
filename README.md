@@ -1,12 +1,14 @@
-Bubble-ProgressBar
-==================
-
-SDK designed for use with Android devices and simulators. Requires Android 2.3 or later.
+<h1> Bubble Progress Bar</h1>
 
 Bored with traditional Progress Bars !! Don't worry we have a great solution for you.
 
 Now Get the stylished Progress Bar in just 2 easy steps.
 
+<h1> SDK Android Version Compatibility</h1>
+
+SDK designed for use with Android devices and simulators. Requires Android 2.3 or later.
+
+<h1> How to use this SDK</h1>
 
 Step 1 ->
 
